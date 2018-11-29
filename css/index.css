@@ -46,6 +46,10 @@ a:hover{
 .navbar-logo{
     background-color:   #fff;
     box-shadow: 1px 1px 3px 1px #c7c7c7;
+    position: fixed;
+    width:100%;
+    z-index: 1111;
+
 }
 .navbar-logo a{
     padding:1.5%;
@@ -64,6 +68,9 @@ a:hover{
 }
 
 /* subject page start */
+.subject-wrapper{
+    padding-top: 70px;
+}
 .subject-wrapper h4{
     color:#111;
     padding:1.5% 0 0 1.5%;
